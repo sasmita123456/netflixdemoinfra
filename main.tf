@@ -1,4 +1,4 @@
-provider "aws" {
+/* provider "aws" {
   region = "us-east-1"
 }
 
@@ -17,6 +17,6 @@ resource "aws_instance" "one" {
 
 variable "instance_names" {
   default = ["jenkins", "tomcat-1", "monitoring-server"]
-}
+} */
 
 
