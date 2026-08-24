@@ -19,9 +19,4 @@ variable "instance_names" {
   default = ["jenkins", "tomcat-1", "monitoring-server"]
 }
 
-resource "aws_s3_bucket" "one" {
-  bucket = "terraform-bucket-dev-321"
-  versioning {
-    enabled = true
-  }
-}
+
