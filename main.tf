@@ -20,7 +20,7 @@ variable "instance_names" {
 }
 
 resource "aws_s3_bucket" "one" {
-  bucket = "terraform-state-sasmita-001"
+  bucket = "terraform-bucket-dev-321"
   versioning {
     enabled = true
   }
